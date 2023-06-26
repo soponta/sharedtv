@@ -1,6 +1,5 @@
 <!-- start shaka.js-->
-    <script>
-        /*<![CDATA[*/
+
         cookieChoices = {};
         window['onerror'] = function() {
             return true
@@ -53,8 +52,7 @@
             izi = imi
         }
         if (location['href'] == window['top']['location']) {
-            document.title = 'ngetop'
-        } /*]]>*/
-    </script>  
+            document.title = 'Shared TV'
+        } 
 <!-- end shaka.js-->
 
