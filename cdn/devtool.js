@@ -1,8 +1,6 @@
 <!-- start devtool.js -->
-    <script>
-        /*<![CDATA[*/
-        alif = 'https://cdnjkt2.transvision.co.id:1001/live/master/2/4028c6856c3db2cc016cd6e647532391/manifest.mpd';
-        elif = '4c467a737445684c4974426f556c7579@4547737a78565152376f4e3861636541';
+        alif = 'https://dce-ak-livewwdazn.akamaized.net/dashdrm/dazn-linear-037/stream.mpd';
+        elif = '82f8e2a17dac44c0a18f660479349c59@1b144f73e6fefe91cd05f850e2b589d0';
         ilif = '';
         Y90 = Z90['replace'](/&fil/g, '?fil');
         aua = 0;
@@ -31,7 +29,6 @@
             ttt += ";player.configure({drm:{servers:{\x27" + ilif + "\x27}}})"
         }
         uuu = ";ui.configure(config);window.player=player;window.ui=ui;player.addEventListener(\x27error\x27,onPlayerErrorEvent);controls.addEventListener(\x27error\x27,onUIErrorEvent);try{await player.load(manifestUri);console.log(\x27The video has now been loaded!\x27)}catch(error){onPlayerError(error)}};function onPlayerErrorEvent(errorEvent){onPlayerError(event.detail)}function onPlayerError(error){console.error(\x27Error code\x27,error.code,\x27object\x27,error)}function onUIErrorEvent(errorEvent){onPlayerError(event.detail)}function initFailed(errorEvent){console.error(\x27Unable to load the UI library!\x27)}document.addEventListener(\x27shaka-ui-loaded\x27,init);document.addEventListener(\x27shaka-ui-load-failed\x27,initFailed)\x3c/script></div>";
-        document['write'](sss + ttt + uuu) /*]]>*/
-    </script>
+        document['write'](sss + ttt + uuu) 
  <!-- end devtool.js -->
 
