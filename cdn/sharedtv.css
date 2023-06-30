@@ -284,4 +284,4 @@
   -webkit-transition: font-size 0.1s cubic-bezier(0, 0, 0.2, 1);
   transition: font-size 0.1s cubic-bezier(0, 0, 0.2, 1);
 }
-div a img{visibility:hidden}body::before{position:absolute;top:5px;right:5px;z-index:10;content:'';height:50px;width:120px;background:url('') no-repeat;background-size:120px auto,auto;opacity:.4}
+div a img{visibility:hidden}body::before{position:absolute;top:5px;right:5px;z-index:10;content:'';height:50px;width:120px;background:url('https://raw.githubusercontent.com/soponta/SHAREDTV/main/img/stv-lg.png') no-repeat;background-size:120px auto,auto;opacity:.4}
