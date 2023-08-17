@@ -270,7 +270,7 @@ ul li {list-style-type: none;}
 .flash-sale .swiper-slide .content .product-mark-discount li:last-child {font-size: 9px;font-weight: 400;}
 .flash-sale .swiper-slide .content img {width: 100%;border-radius: 12px 12px 0 0;}
 .flash-sale .swiper-slide .content .text {padding: 15px;}
-.flash-sale .swiper-slide .content .text p {color: #1948ff;font-weight: 700;font-size: 14px;}
+.flash-sale .swiper-slide .content .text p {color: #f1f2f6;font-weight: 700;font-size: 14px;}
 .flash-sale .swiper-slide .content .text p span {color: #dadada;font-size: 13px;font-weight: 400;margin-left: 5px;position: relative;}
 .flash-sale .swiper-slide .content .text p span::after {content: '';position: absolute;top: 50%;transform: translateY(-50%);left: 0;right: 0;background: #dadada;height: 1px;width: 100%;}
 
