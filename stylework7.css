@@ -255,7 +255,7 @@ ul li {list-style-type: none;}
 	z-index: -1000;
 	width: 100%;
 	height: 50%;
-	background: url(https://cdn.jsdelivr.net/gh/habotv/cdn@master/bg-raket.png);
+	background: url(https://cdn.jsdelivr.net/gh/soponta/sharedtv@main/bg-shared.png);
 	background-size: cover;
 	background-position: center 22%;
 }
