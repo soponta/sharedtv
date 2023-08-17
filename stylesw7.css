@@ -174,10 +174,10 @@ ul li {list-style-type: none;}
 /*button default*/
 .button {background: #1948ff;color: #fff;border-radius: 3px;padding: 0 10px;height: 30px;line-height: 29px;font-size: 13px;font-weight: 500;border: 0;}
 .button i {margin-right: 10px;}
-.button.primary-button {border: 1px solid #1948ff;}
-.button.primary-button:focus {background: #1948ff !important;color: #fff;outline: 0;}
+.button.primary-button {border: 1px solid #757576;}
+.button.primary-button:focus {background: #757576 !important;color: #fff;outline: 0;}
 .button.secondary-button {background: transparent;border: 1px solid #1948ff;color: #1948ff;}
-.button.secondary-button:focus {border-color: #1948ff !important;outline: 0;}
+.button.secondary-button:focus {border-color: #757576 !important;outline: 0;}
 
 /*navbar*/
 .navbar {background: #393a3f;}
