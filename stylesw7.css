@@ -232,7 +232,7 @@ ul li {list-style-type: none;}
 /*--- HOME ---*/
 
 /*slider*/
-.slider {margin-top: 69px;}
+.slider {margin-top: 25px;}
 .slider .swiper-container.swiper-container-horizontal > .swiper-pagination-bullets {text-align: left;padding-left: 10px;}
 .slider .swiper-slide img {width: 100%;border-radius: 12px;}
 
