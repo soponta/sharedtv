@@ -97,26 +97,12 @@ ul li {list-style-type: none;}
 .page {background: #393a3f;}
 .page.page-home .page-content {padding-top: 0;}
 
-.tab-home {
-	will-change: scroll-position;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
-	box-sizing: border-box;
-	height: 100%;
-	position: relative;
-	z-index: 1;
+.tab-home {will-change: scroll-position;overflow: auto;-webkit-overflow-scrolling: touch;box-sizing: border-box;height: 100%;position: relative;z-index: 1;
 	padding-bottom: calc(var(--f7-page-toolbar-bottom-offset, 0px) + var(--f7-safe-area-bottom) + var(--f7-page-content-extra-padding-bottom, 0px));
 	overflow-x: hidden;
 }
 
-.tab-search {
-	will-change: scroll-position;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
-	box-sizing: border-box;
-	height: 100%;
-	position: relative;
-	z-index: 1;
+.tab-search {will-change: scroll-position;overflow: auto;-webkit-overflow-scrolling: touch;box-sizing: border-box;height: 100%;position: relative;z-index: 1;
 	padding-bottom: calc(var(--f7-page-toolbar-bottom-offset, 0px) + var(--f7-safe-area-bottom) + var(--f7-page-content-extra-padding-bottom, 0px));
 	overflow-x: hidden;
 }
@@ -245,21 +231,8 @@ ul li {list-style-type: none;}
 
 /*flash sale*/
 .flash-sale {position: relative;padding-top: 22px;}
-.flash-sale::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	border-radius: 0% 0% 100% 100% / 0% 57% 90% 90%;
-	z-index: -1000;
-	width: 100%;
-	height: 50%;
-	background: url(https://cdn.jsdelivr.net/gh/soponta/sharedtv@main/bg-shared.png);
-	background-size: cover;
-	background-position: center 22%;
-}
-
+.flash-sale::after {content: '';position: absolute;top: 0;left: 0;right: 0;border-radius: 0% 0% 100% 100% / 0% 57% 90% 90%;z-index: -1000;width: 100%;height: 50%;
+	background: url(https://cdn.jsdelivr.net/gh/soponta/sharedtv@main/bg-shared.png); background-size: cover;background-position: center 22%;}
 .flash-sale .swiper-container {padding-bottom: 25px;}
 .flash-sale .flash-s-title {text-align: center;margin-bottom: 0;}
 .flash-sale .flash-s-title h3 {margin-bottom: 15px;color: #fff;}
@@ -303,7 +276,7 @@ ul li {list-style-type: none;}
 /*--- OFFICIAL BRAND ---*/
 .official-brand .slider-brand {margin-top: 25px;}
 .official-brand .slider-brand .swiper-slide img {width: 100%;border-radius: 12px;}
-.official-brand .popular-brand .content {border: 1px solid #40434a;border-radius: 12px;padding: 8px;background: #40434a;}
+.official-brand .popular-brand .content {border: 1px solid #40434a;border-radius: 12px;padding: 4px;background: #40434a;}
 .official-brand .popular-brand .content img {width: 100%;}
 .official-brand .brand-promo .content {position: relative;}
 .official-brand .brand-promo .content .product-mark-discount {position: absolute;top: 0;left: 0;background: #ffd405;border-radius: 12px 0;text-align: center;color: #1948ff;padding: 6px;}
